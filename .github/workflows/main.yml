@@ -4,5 +4,5 @@ jobs:
   my-job:
     runs-on: self-hosted
     steps:
-      - name: Environment Variable
-        run: set
+      - name: Docker
+        run: docker version
